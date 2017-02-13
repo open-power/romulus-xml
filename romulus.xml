@@ -2297,28 +2297,28 @@
 </enumerationTypes>
 <globalSettings>
 <globalSetting>
-	<id>/sys</id>
+	<id>/sys-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0</id>
+	<id>/sys-0/node-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0</id>
+	<id>/sys-0/node-0/motherboard-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/Network-2/pciep</id>
+	<id>/sys-0/node-0/motherboard-0/Network-2/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2329,14 +2329,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/Storage-0</id>
+	<id>/sys-0/node-0/motherboard-0/Storage-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/Storage-0/pciep</id>
+	<id>/sys-0/node-0/motherboard-0/Storage-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2347,7 +2347,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/USB-1/pciep</id>
+	<id>/sys-0/node-0/motherboard-0/USB-1/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2358,25 +2358,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/bmc-0</id>
+	<id>/sys-0/node-0/motherboard-0/bmc-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/bmc-0/chip-bmc-ast2500.pin_G21_espi_lpc_gpioac0ac7/chip-bmc-ast2500.pingroup_lpc/chip-bmc-ast2500.LPC</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie</id>
+	<id>/sys-0/node-0/motherboard-0/bmc-0/chip-bmc-ast2500.pin_F4_adc0_gpiow0</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
 	<value></value>
@@ -2387,14 +2376,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie/chip-bmc-ast2500.pcie</id>
+	<id>/sys-0/node-0/motherboard-0/bmc-0/chip-bmc-ast2500.pin_F4_adc0_gpiow0/chip-bmc-ast2500.pingroup_adc0/chip-bmc-ast2500.adc0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2405,7 +2387,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-0</id>
+	<id>/sys-0/node-0/motherboard-0/bmc-0/chip-bmc-ast2500.pin_G21_espi_lpc_gpioac0ac7/chip-bmc-ast2500.pingroup_lpc/chip-bmc-ast2500.LPC</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie/chip-bmc-ast2500.pcie</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -2416,7 +2420,18 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-0/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0</id>
+	<property>
+	<id>FRU_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2427,14 +2442,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-0/dimm-0/dimm-thermal-sensor</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/dimm-thermal-sensor</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-0/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2453,7 +2468,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-0/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2472,7 +2487,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-1</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -2483,7 +2498,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-1/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2494,7 +2509,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-1/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2513,7 +2528,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-1/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2532,7 +2547,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-10/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-10</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0</id>
+	<property>
+	<id>FRU_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2543,7 +2580,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-10/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0/dimm-thermal-sensor</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2562,7 +2606,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-10/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2581,7 +2625,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-11</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-11</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -2592,7 +2636,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-11/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2603,14 +2647,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-11/dimm-0/dimm-thermal-sensor</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-11/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2629,7 +2666,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-11/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2648,7 +2685,18 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-12/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0</id>
+	<property>
+	<id>FRU_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2659,7 +2707,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-12/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2678,7 +2726,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-12/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2697,7 +2745,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-13/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2708,7 +2756,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-13/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2727,7 +2775,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-13/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2746,7 +2794,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-14/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2757,7 +2805,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-14/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2776,7 +2824,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-14/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2795,7 +2843,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-15</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-15</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -2806,7 +2854,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-15/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2817,7 +2865,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-15/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2836,7 +2884,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-15/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2855,7 +2903,18 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-2/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-2</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2866,7 +2925,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-2/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2885,7 +2944,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-2/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2904,7 +2963,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-3</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -2915,7 +2974,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-3/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2926,7 +2985,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-3/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2945,7 +3004,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-3/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2964,7 +3023,18 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-4/dimm-0</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-4</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0</id>
 	<property>
 	<id>FRU_NAME</id>
 	<value></value>
@@ -2975,7 +3045,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-4/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2986,14 +3056,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-4/dimm-0/dimm-thermal-sensor</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-4/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3012,7 +3075,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-4/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3031,7 +3094,18 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-5/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-5</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3042,7 +3116,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-5/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3061,7 +3135,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-5/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3080,18 +3154,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-6/dimm-0</id>
-	<property>
-	<id>FRU_NAME</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-6/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3102,14 +3165,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-6/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x3C</value>
+	<value>0x3c</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3121,14 +3184,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-6/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0XAC</value>
+	<value>0xAC</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3140,7 +3203,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-7</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-7</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -3151,7 +3214,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-7/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3162,7 +3225,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-7/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3181,14 +3244,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-7/dimm-0/spd</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-7/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3207,7 +3263,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-8</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-8</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -3218,7 +3274,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-8/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3229,7 +3285,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-8/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3248,7 +3304,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-8/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3267,7 +3323,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-9/dimm-0/ddr4</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3278,7 +3334,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-9/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3297,7 +3353,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/dimmconn-9/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3316,14 +3372,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/pcieslot-0</id>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/pcieslot-0/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-0/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3334,7 +3390,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/pcieslot-1/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-1/pciecard-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-1/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3345,14 +3415,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/pcieslot-2</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/pcieslot-2/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-2/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3363,7 +3426,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/pcieslot-3/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-3/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3374,7 +3437,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/pcieslot-4/pciecard-0/pciep</id>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-4/pciecard-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3385,7 +3448,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -3396,14 +3459,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/fsim-0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/fsim-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3418,7 +3488,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm0123</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm0123</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3429,7 +3499,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm4567</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm4567</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3440,7 +3510,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/lpc-master</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/lpc-master</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3451,7 +3521,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3462,7 +3532,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3473,7 +3543,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3484,7 +3554,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3495,14 +3565,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3513,7 +3576,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3524,7 +3587,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3535,7 +3598,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3546,25 +3609,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config</id>
-	<property>
-	<id>IO_CONFIG_SELECT</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3575,7 +3620,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3586,7 +3631,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3597,7 +3642,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb3_x8/phb3_x8_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb3_x8/phb3_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3608,7 +3653,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb4_x4/phb4_x4_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb4_x4/phb4_x4_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3619,7 +3664,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb5_x4/phb5_x4_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/pec2/pec2_x8_x4_x4_config/phb5_x4/phb5_x4_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3630,7 +3675,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/xbus1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/xbus1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3641,7 +3686,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -3652,14 +3704,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/fsi-slave-0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3674,7 +3719,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm0123</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm0123</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3685,7 +3730,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm4567</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm4567</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3696,7 +3741,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3707,7 +3752,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3718,7 +3763,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3729,7 +3774,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs0/mca1/ddr_ch1:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3740,21 +3785,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist0/mcs1</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3765,7 +3796,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3776,7 +3807,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3787,7 +3818,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs1</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca5/ddr_ch5:cs1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3798,7 +3829,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/pec0/pec0_x16_config/phb0_x16/phb0_x16_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3809,14 +3840,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8</id>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3827,7 +3851,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/pec2/pec2_x16_config/phb3_x16/phb3_x16_pci</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/pec2/pec2_x16_config/phb3_x16/phb3_x16_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3838,22 +3862,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/xbus1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys/node-0/motherboard-0/vpd_assoc_child</id>
-	<property>
-	<id>ASSOCIATION_TYPE</id>
-	<value></value>
-	</property>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/xbus1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3894,11 +3903,11 @@
 </appliedErratas>
 <targetInstances>
 <targetInstance>
-	<id>sys</id>
+	<id>sys-0</id>
 	<type>sys-sys-power9</type>
 	<is_root>true</is_root>
 	<instance_name>sys</instance_name>
-	<position>-1</position>
+	<position>0</position>
 	<child_id>node-0</child_id>
 	<hidden_child_id>system_event_sensor</hidden_child_id>
 	<hidden_child_id>host_status_sensor</hidden_child_id>
@@ -6055,12 +6064,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0 => dimmconn-11/dimm-0/ddr4</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs0 => dimmconn-12/dimm-0/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/</source_path>
 		<source_target>ddr_ch4:cs0</source_target>
-		<dest_path>dimmconn-11/dimm-0/</dest_path>
+		<dest_path>dimmconn-12/dimm-0/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
@@ -6068,12 +6077,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1 => dimmconn-12/dimm-0/ddr4</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/ddr_ch4:cs1 => dimmconn-13/dimm-0/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_s/mcbist1/mcs2/mca4/</source_path>
 		<source_target>ddr_ch4:cs1</source_target>
-		<dest_path>dimmconn-12/dimm-0/</dest_path>
+		<dest_path>dimmconn-13/dimm-0/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
@@ -6141,7 +6150,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6162,7 +6171,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6183,7 +6192,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6204,7 +6213,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6225,7 +6234,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6246,7 +6255,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6267,7 +6276,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6288,7 +6297,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6309,7 +6318,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6330,7 +6339,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6351,7 +6360,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6372,7 +6381,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6393,7 +6402,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6414,7 +6423,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6435,7 +6444,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6456,7 +6465,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6477,7 +6486,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6498,7 +6507,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6519,7 +6528,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6540,7 +6549,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6561,7 +6570,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6582,7 +6591,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6603,7 +6612,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6624,7 +6633,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6645,7 +6654,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6666,7 +6675,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6687,7 +6696,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6708,7 +6717,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6719,27 +6728,6 @@
 		<source_target>i2c-master-dimm4567</source_target>
 		<dest_path>dimmconn-14/dimm-0/spd/</dest_path>
 		<dest_target>i2c-slave</dest_target>
-		<bus_attribute>
-			<id>BUS_WIDTH</id>
-		<default>2</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_SPEED</id>
-		<default>400</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_s/i2c-master-dimm4567 => dimmconn-14/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
-		<bus_type>I2C</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-1/module-0/p9_proc_s/</source_path>
-		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-14/dimm-0/dimm-thermal-sensor/</dest_path>
-		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -6771,7 +6759,28 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/module-0/p9_proc_s/i2c-master-dimm4567 => dimmconn-15/dimm-0/spd/i2c-slave</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/module-0/p9_proc_s/</source_path>
+		<source_target>i2c-master-dimm4567</source_target>
+		<dest_path>dimmconn-15/dimm-0/spd/</dest_path>
+		<dest_target>i2c-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6792,7 +6801,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default>400</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -39323,6 +39332,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>FSI_LINK</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>FSI_PORT</id>
 		<default>0x00</default>
 	</attribute>
@@ -39440,6 +39453,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_LINK</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
@@ -40471,6 +40488,14 @@
 	<attribute>
 		<id>I2C_ADDRESS</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -44074,7 +44099,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -44520,6 +44545,14 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_SPEED</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
