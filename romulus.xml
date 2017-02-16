@@ -4965,7 +4965,7 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
-		<default></default>
+		<default>SAPPHIRE</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_DEFAULT_HDDW_SLOT_COUNT</id>
@@ -5434,7 +5434,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
-		<default></default>
+		<default>ROMULUS</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RESCLK_ENABLE</id>
@@ -5588,15 +5588,15 @@
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMasterPath</id><value>physical:sys-0/node-0/proc-0</value></field>
+				<field><id>port</id><value>0</value></field>
+				<field><id>devAddr</id><value>0xA0</value></field>
+				<field><id>engine</id><value>2</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>chipCount</id><value>0x01</value></field>
+				<field><id>writePageSize</id><value>32</value></field>
+				<field><id>writeCycleTime</id><value>20</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -6150,7 +6150,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6171,7 +6171,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6192,7 +6192,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6213,7 +6213,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6234,7 +6234,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6255,7 +6255,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6276,7 +6276,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6297,7 +6297,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6318,7 +6318,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6339,7 +6339,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6360,7 +6360,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6381,7 +6381,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6402,7 +6402,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6423,7 +6423,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6444,7 +6444,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6465,7 +6465,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6486,7 +6486,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6507,7 +6507,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6528,7 +6528,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6549,7 +6549,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6570,7 +6570,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6591,7 +6591,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6612,7 +6612,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6633,7 +6633,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6654,7 +6654,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6675,7 +6675,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6696,7 +6696,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6717,7 +6717,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6738,7 +6738,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6759,7 +6759,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6780,7 +6780,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6801,7 +6801,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7199,7 +7199,7 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>FABRIC_NODE_ID</id>
+		<id>FABRIC_GROUP_ID</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -17223,8 +17223,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -17871,8 +17875,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFF00</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -18162,8 +18170,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0x00FF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -18811,8 +18823,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -19215,8 +19231,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFF00</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -19911,8 +19931,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0x00F0</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -20202,8 +20226,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0x000F</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -28392,7 +28420,7 @@
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
-		<default>1</default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -28547,7 +28575,7 @@
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
-		<default>1</default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -43872,8 +43900,8 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>FABRIC_NODE_ID</id>
-		<default>0</default>
+		<id>FABRIC_GROUP_ID</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
