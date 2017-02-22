@@ -4145,7 +4145,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
-		<default></default>
+		<default>1866</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE_MHZ</id>
@@ -4554,7 +4554,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_NEST_CAPABLE_FREQUENCIES_SYS</id>
-		<default></default>
+		<default>UNSUPPORTED_FREQ</default>
 	</attribute>
 	<attribute>
 		<id>MRW_SAFEMODE_MEM_THROTTLE_NUMERATOR_PER_CHIP</id>
@@ -4638,7 +4638,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_IDLE_POWER_CONTROL_REQUESTED</id>
-		<default></default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_DRAM_DATABUS_UTIL</id>
@@ -4678,7 +4678,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_POWER_CONTROL_REQUESTED</id>
-		<default></default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_PREFETCH_ENABLE</id>
@@ -5158,7 +5158,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_X_BUS_WIDTH</id>
-		<default></default>
+		<default>4_BYTE</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FSP_BAR_BASE_ADDR_OFFSET</id>
@@ -5454,7 +5454,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
-		<default></default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYS_FORCE_ALL_CORES</id>
@@ -5510,7 +5510,7 @@
 	</attribute>
 	<attribute>
 		<id>VDM_ENABLE</id>
-		<default></default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>VDM_FMAX_OVERRIDE_KHZ</id>
@@ -7817,7 +7817,7 @@
 				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
 				<field><id>chipCount</id><value>0x04</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
-				<field><id>writeCycleTime</id><value>0x05</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -7831,7 +7831,7 @@
 				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
 				<field><id>chipCount</id><value>0x02</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
-				<field><id>writeCycleTime</id><value>0x05</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -7845,7 +7845,7 @@
 				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
 				<field><id>chipCount</id><value>0x02</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
-				<field><id>writeCycleTime</id><value>0x05</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -42614,11 +42614,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x01</default>
+		<default>0x03</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -42737,11 +42737,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x01</default>
+		<default>0x03</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
