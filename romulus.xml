@@ -4136,7 +4136,7 @@
 	</attribute>
 	<attribute>
 		<id>ENABLED_THREADS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>EXECUTION_PLATFORM</id>
@@ -4265,11 +4265,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_NUM_SECTIONS</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_SECTION_SIZE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HIDDEN_ERRLOGS_ENABLE</id>
@@ -4924,7 +4924,7 @@
 	</attribute>
 	<attribute>
 		<id>OPAL_MODEL</id>
-		<default></default>
+		<default>ibm,romulus</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
@@ -5004,7 +5004,7 @@
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
-		<default></default>
+		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>OS_IPL_MODE</id>
@@ -5012,15 +5012,15 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_BASE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_ENTRY</id>
-		<default></default>
+		<default>0x10</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_IN_MIRROR_MEM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
@@ -5477,11 +5477,11 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FAMILY</id>
-		<default></default>
+		<default>ibm,p9-openbmc</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IPL_PHASE</id>
-		<default></default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IVRMS_ENABLED</id>
@@ -5509,7 +5509,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
-		<default></default>
+		<default>ibm,romulus</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
@@ -5541,7 +5541,7 @@
 	</attribute>
 	<attribute>
 		<id>THREAD_COUNT</id>
-		<default></default>
+		<default>0x4</default>
 	</attribute>
 	<attribute>
 		<id>TPM_REQUIRED</id>
@@ -5597,7 +5597,7 @@
 	</attribute>
 	<attribute>
 		<id>XSCOM_BASE_ADDRESS</id>
-		<default></default>
+		<default>0,0x000603FC00000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_FIELD</id>
@@ -5684,11 +5684,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_NUM_SECTIONS</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_SECTION_SIZE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -9166,27 +9166,27 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default></default>
+		<default>150</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default></default>
+		<default>232</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VCS_UOHM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default></default>
+		<default>250</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDN_UOHM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_SBE_MASTER_CHIP</id>
