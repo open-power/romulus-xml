@@ -6963,7 +6963,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
-		<default>00</default>
+		<default>11</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
@@ -7113,7 +7113,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
-		<default>00</default>
+		<default>11</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
@@ -7163,7 +7163,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
-		<default>00</default>
+		<default>11</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
@@ -16977,12 +16977,12 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_MASK</id>
-		<default>0xFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_MASK</id>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -17635,12 +17635,12 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_MASK</id>
-		<default>0xFF00</default>
-	</attribute>
-	<attribute>
 		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_MASK</id>
+		<default>0xFF00</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -17936,12 +17936,12 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_MASK</id>
-		<default>0x00FF</default>
-	</attribute>
-	<attribute>
 		<id>PCIE_LANE_GROUP</id>
 		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_MASK</id>
+		<default>0x00FF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -18595,12 +18595,12 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_MASK</id>
-		<default>0xFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_MASK</id>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -19009,12 +19009,12 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_MASK</id>
-		<default>0xFF00</default>
-	</attribute>
-	<attribute>
 		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_MASK</id>
+		<default>0xFF00</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -19310,12 +19310,12 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_MASK</id>
-		<default>0x00FF</default>
-	</attribute>
-	<attribute>
 		<id>PCIE_LANE_GROUP</id>
 		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_MASK</id>
+		<default>0x00FF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -19725,12 +19725,12 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_MASK</id>
-		<default>0x00F0</default>
-	</attribute>
-	<attribute>
 		<id>PCIE_LANE_GROUP</id>
 		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_MASK</id>
+		<default>0x00F0</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -20026,12 +20026,12 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_MASK</id>
-		<default>0x000F</default>
-	</attribute>
-	<attribute>
 		<id>PCIE_LANE_GROUP</id>
 		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_MASK</id>
+		<default>0x000F</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
