@@ -28148,7 +28148,7 @@
 	</attribute>
 	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
-		<default>0x00</default>
+		<default>0x80</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
