@@ -3541,6 +3541,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm0123</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6210,11 +6225,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_s/fsim-0 => proc_socket-1/module-0/p9_proc_s/fsi-slave-0</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_s/fsim-1 => proc_socket-1/module-0/p9_proc_s/fsi-slave-0</bus_id>
 		<bus_type>FSIM</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_s/</source_path>
-		<source_target>fsim-0</source_target>
+		<source_target>fsim-1</source_target>
 		<dest_path>proc_socket-1/module-0/p9_proc_s/</dest_path>
 		<dest_target>fsi-slave-0</dest_target>
 		<bus_attribute>
@@ -28133,7 +28148,7 @@
 	</attribute>
 	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
-		<default>0x00</default>
+		<default>0x80</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
