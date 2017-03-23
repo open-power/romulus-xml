@@ -9240,7 +9240,7 @@
 	</attribute>
 	<attribute>
 		<id>BOOT_FREQ_MULT</id>
-		<default>120</default>
+		<default>96</default>
 	</attribute>
 	<attribute>
 		<id>BRANCH_PIBMEM_ADDR</id>
@@ -10670,15 +10670,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
-		<default>0</default>
+		<default>64</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default>150</default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default>232</default>
+		<default>23</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VCS_UOHM</id>
