@@ -8581,7 +8581,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
-		<default>11</default>
+		<default>01</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
@@ -8731,7 +8731,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
-		<default>11</default>
+		<default>01</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
@@ -8781,7 +8781,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
-		<default>11</default>
+		<default>01</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
