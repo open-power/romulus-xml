@@ -10900,11 +10900,11 @@
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_RAIL</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>VCS_BOOT_VOLTAGE</id>
@@ -10924,7 +10924,7 @@
 	</attribute>
 	<attribute>
 		<id>VDD_AVSBUS_RAIL</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDD_BOOT_VOLTAGE</id>
@@ -10936,7 +10936,7 @@
 	</attribute>
 	<attribute>
 		<id>VDN_AVSBUS_RAIL</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDN_BOOT_VOLTAGE</id>
