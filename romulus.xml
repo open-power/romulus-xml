@@ -4835,6 +4835,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/occ/occ_active_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x03</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5551,6 +5558,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+        <id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/occ/occ_active_sensor</id>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0x04</value>
+        </property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/vpd_assoc_child</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -5846,7 +5860,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PROC_REFCLOCK_KHZ</id>
-		<default></default>
+		<default>0x20788</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_X_HFT</id>
@@ -6580,15 +6594,15 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>84</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default></default>
+		<default>84</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MEMCTRL_ERROR_TEMP_DEG_C</id>
@@ -6604,47 +6618,71 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
-		<default></default>
+		<default>5</default>
 	</attribute>
 	<attribute>
+		<id>OPEN_POWER_MIN_MEM_UTILIZATION_POWER_CAP</id>
+		<default>5</default>
+  	</attribute>
+	<attribute>
 		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
-		<default></default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_BULK_POWER_LIMIT_WATTS</id>
-		<default></default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_MAX_MEM_POWER_WATTS</id>
-		<default></default>
+		<default>500</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default></default>
+		<default>3000</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default></default>
+		<default>500</default>
 	</attribute>
 	<attribute>
-		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
+		<id>OPEN_POWER_PM_MODE</id>
+  		<default></default>
+  	</attribute>	
+	<attribute>
+		<id>OPEN_POWER_PM_MODE_FREQ_PERCENT</id>
 		<default></default>
 	</attribute>
+ 	<attribute>
+		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
+		<default>85</default>
+	</attribute>	
 	<attribute>
 		<id>OPEN_POWER_PROC_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>95</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>5</default>
 	</attribute>
+	<attribute>
+		<id>OPEN_POWER_PROC_WEIGHT</id>
+		<default>10</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_QUAD_WEIGHT</id>
+		<default>10</default>
+  	</attribute>	
 	<attribute>
 		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>
-		<default></default>
+		<default>85</default>
 	</attribute>
 	<attribute>
+		<id>OPEN_POWER_SOFT_MIN_PCAP_WATTS</id>
+		<default>2000</default>
+  	</attribute>	
+	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPT_MEMMAP_GROUP_POLICY</id>
@@ -8864,6 +8902,22 @@
 		<id>FABRIC_GROUP_ID</id>
 		<default>0</default>
 	</attribute>
+ 	<attribute>
+ 		<id>PBAX_BRDCST_ID_VECTOR</id>
+ 		<default>0</default>
+ 	</attribute>
+ 	<attribute>
+ 		<id>PBAX_CHIPID</id>
+ 		<default>0</default>
+ 	</attribute>
+ 	<attribute>
+ 		<id>PBAX_GROUPID</id>
+ 		<default>0</default>
+ 	</attribute>
+ 	<attribute>
+ 		<id>PM_PBAX_NODEID</id>
+ 		<default>0</default>
+ 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
@@ -17537,6 +17591,7 @@
 	<is_root>false</is_root>
 	<instance_name>occ</instance_name>
 	<position>-1</position>
+	<hidden_child_id>occ_active_sensor</hidden_child_id>	
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -17641,6 +17696,61 @@
 		<id>TYPE</id>
 		<default>OCC</default>
 	</attribute>
+</targetInstance>
+<targetInstance>
+    <id>occ_active_sensor</id>
+    <type>unit-ipmi-sensor</type>
+    <library_target>true</library_target>
+    <instance_name>occ_active_sensor</instance_name>
+    <position>-1</position>
+    <attribute>
+        <id>BUS_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>CHIP_UNIT</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>CLASS</id>
+        <default>UNIT</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_ENTITY_ID</id>
+        <default>0xD2</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_ID</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_NAME_SUFFIX</id>
+        <default>OCC_Active_Sensor</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_OFFSETS</id>
+        <default>0x00,0x01</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_READING_TYPE</id>
+        <default>0x09</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_TYPE</id>
+        <default>0x07</default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>IPMI_SENSOR</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
 </targetInstance>
 <targetInstance>
 	<id>capp0</id>
@@ -43436,6 +43546,22 @@
 	<attribute>
 		<id>FABRIC_GROUP_ID</id>
 		<default>1</default>
+	</attribute>
+ 	<attribute>
+		<id>PBAX_BRDCST_ID_VECTOR</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_CHIPID</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_GROUPID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PM_PBAX_NODEID</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
