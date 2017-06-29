@@ -7489,18 +7489,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>TPM_INFO</id>
-		<default>
-				<field><id>tpmEnabled</id><value></value></field>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddrLocality0</id><value></value></field>
-				<field><id>devAddrLocality4</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>TYPE</id>
 		<default>NODE</default>
 	</attribute>
