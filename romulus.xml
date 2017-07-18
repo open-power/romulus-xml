@@ -2753,14 +2753,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x0d</value>
+	<value>0x15</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x1d</value>
+	<value>0x25</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -2842,14 +2842,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x0e</value>
+	<value>0x16</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x1e</value>
+	<value>0x26</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -2931,14 +2931,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x0f</value>
+	<value>0x17</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x1f</value>
+	<value>0x27</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3020,14 +3020,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x10</value>
+	<value>0x18</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x20</value>
+	<value>0x28</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3109,14 +3109,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x11</value>
+	<value>0x19</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x21</value>
+	<value>0x29</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3198,14 +3198,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x12</value>
+	<value>0x1a</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x22</value>
+	<value>0x2a</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3287,14 +3287,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x13</value>
+	<value>0x0d</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x23</value>
+	<value>0x1d</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3376,14 +3376,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x14</value>
+	<value>0x0e</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x24</value>
+	<value>0x1e</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3465,14 +3465,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x15</value>
+	<value>0x0f</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x25</value>
+	<value>0x1f</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3554,14 +3554,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x16</value>
+	<value>0x10</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x26</value>
+	<value>0x20</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3643,14 +3643,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x17</value>
+	<value>0x11</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x27</value>
+	<value>0x21</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3732,14 +3732,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x18</value>
+	<value>0x12</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x28</value>
+	<value>0x22</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3821,14 +3821,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x19</value>
+	<value>0x13</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x29</value>
+	<value>0x23</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3910,14 +3910,14 @@
 	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x1a</value>
+	<value>0x14</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/dimm_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x2a</value>
+	<value>0x24</value>
 	</property>
 </globalSetting>
 <globalSetting>
