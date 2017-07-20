@@ -9491,6 +9491,10 @@
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+	<attribute>
+		<id>NO_APSS_PROC_POWER_VCS_VIO_WATTS</id>
+		<default>13</default>
+	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>module-0</id>
@@ -44203,6 +44207,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>NO_APSS_PROC_POWER_VCS_VIO_WATTS</id>
+		<default>13</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
