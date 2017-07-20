@@ -9493,7 +9493,7 @@
 	</attribute>
 	<attribute>
 		<id>NO_APSS_PROC_POWER_VCS_VIO_WATTS</id>
-		<default>18</default>
+		<default>19</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -44210,7 +44210,7 @@
 	</attribute>
 	<attribute>
 		<id>NO_APSS_PROC_POWER_VCS_VIO_WATTS</id>
-		<default>18</default>
+		<default>19</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
