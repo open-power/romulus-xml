@@ -1963,6 +1963,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>SYSTEM_WOF_DISABLE</id>
+		<enumerator>
+		<name>OFF_SKIP_DD</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>OFF</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ON</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>SYSTEM_WOF_ENABLED</id>
 		<enumerator>
 		<name>OFF</name>
@@ -7290,6 +7305,10 @@
 	<attribute>
 		<id>SYSTEM_TYPE</id>
 		<default>ibm,romulus</default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_WOF_DISABLE</id>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
