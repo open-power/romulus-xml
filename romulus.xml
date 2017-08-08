@@ -9895,6 +9895,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DISABLE_I2C_ENGINE2_PORT0_DIAG_MODE</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
 		<id>DEVICE_ID</id>
 		<default>0</default>
 	</attribute>
