@@ -6723,11 +6723,11 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
-		<default>5</default>
+		<default>25</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_POWER_CAP</id>
-		<default>5</default>
+		<default>25</default>
   	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
