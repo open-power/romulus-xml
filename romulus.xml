@@ -6450,7 +6450,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_DRAM_DATABUS_UTIL</id>
-		<default>0x00002328</default>
+		<default>0x00002710</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
