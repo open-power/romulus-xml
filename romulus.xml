@@ -5794,7 +5794,7 @@
 	</attribute>
 	<attribute>
 		<id>BMC_FRU_ID</id>
-		<default>25</default>
+		<default>28</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FLAGS</id>
