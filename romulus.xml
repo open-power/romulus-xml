@@ -639,6 +639,96 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>HDAT_I2C_DEVICE_PURPOSE</id>
+		<enumerator>
+		<name>SBE_SEEPROM</name>
+		<value>0x8</value>
+		</enumerator>
+		<enumerator>
+		<name>PROC_MODULE_VPD</name>
+		<value>0x7</value>
+		</enumerator>
+		<enumerator>
+		<name>DIMM_SPD</name>
+		<value>0x6</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI_HOTPLUG</name>
+		<value>0xA</value>
+		</enumerator>
+		<enumerator>
+		<name>WINDOW_OPEN</name>
+		<value>0xD</value>
+		</enumerator>
+		<enumerator>
+		<name>CABLE_CARD_POWER_SENSE</name>
+		<value>0x2</value>
+		</enumerator>
+		<enumerator>
+		<name>TPM</name>
+		<value>0x4</value>
+		</enumerator>
+		<enumerator>
+		<name>PLANAR_VPD</name>
+		<value>0x9</value>
+		</enumerator>
+		<enumerator>
+		<name>CABLE_CARD_POWER_CONTROL</name>
+		<value>0x3</value>
+		</enumerator>
+		<enumerator>
+		<name>MODULE_VPD</name>
+		<value>0x5</value>
+		</enumerator>
+		<enumerator>
+		<name>CABLE_CARD_PRES</name>
+		<value>0x1</value>
+		</enumerator>
+		<enumerator>
+		<name>NVLINK</name>
+		<value>0xB</value>
+		</enumerator>
+		<enumerator>
+		<name>PHYSICAL_PRESENCE</name>
+		<value>0xE</value>
+		</enumerator>
+		<enumerator>
+		<name>UNKNOWN</name>
+		<value>0xFF</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>HDAT_I2C_DEVICE_TYPE</id>
+		<enumerator>
+		<name>955X</name>
+		<value>0x1</value>
+		</enumerator>
+		<enumerator>
+		<name>SEEPROM</name>
+		<value>0x2</value>
+		</enumerator>
+		<enumerator>
+		<name>NUVOTON_TPM</name>
+		<value>0x3</value>
+		</enumerator>
+		<enumerator>
+		<name>UCX90XX</name>
+		<value>0x5</value>
+		</enumerator>
+		<enumerator>
+		<name>NVLINK</name>
+		<value>0x6</value>
+		</enumerator>
+		<enumerator>
+		<name>UNKNOWN</name>
+		<value>0xFF</value>
+		</enumerator>
+		<enumerator>
+		<name>MEX_FPGA</name>
+		<value>0x4</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>HIDDEN_ERRLOGS_ENABLE</id>
 		<enumerator>
 		<name>NO_HIDDEN_LOGS</name>
@@ -1862,6 +1952,21 @@
 		<enumerator>
 		<name>FSP_SW_VER</name>
 		<value>0x1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>SYSTEM_WOF_DISABLE</id>
+		<enumerator>
+		<name>OFF_SKIP_DD</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>OFF</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ON</name>
+		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -6567,6 +6672,10 @@
 		<default>ibm,romulus</default>
 	</attribute>
 	<attribute>
+		<id>SYSTEM_WOF_DISABLE</id>
+		<default>ON</default>
+	</attribute>
+	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
 		<default>84</default>
 	</attribute>
@@ -7849,8 +7958,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7870,8 +7987,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7891,8 +8016,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7912,8 +8045,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7933,8 +8074,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7954,8 +8103,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7975,8 +8132,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7996,8 +8161,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8017,8 +8190,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8038,8 +8219,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8059,8 +8248,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8080,8 +8277,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8101,8 +8306,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8122,8 +8335,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8143,8 +8364,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8164,8 +8393,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8185,8 +8422,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8206,8 +8451,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8227,8 +8480,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8248,8 +8509,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8269,8 +8538,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8290,8 +8567,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8311,8 +8596,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8332,8 +8625,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8353,8 +8654,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8374,8 +8683,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8395,8 +8712,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8416,8 +8741,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8437,8 +8770,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8458,8 +8799,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8479,8 +8828,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>DIMM_SPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8500,8 +8857,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8521,8 +8886,16 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>PLANAR_VPD</default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -8937,6 +9310,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>FABRIC_GROUP_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>FABRIC_NODE_ID</id>
 		<default>0</default>
 	</attribute>
@@ -9098,6 +9475,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>NO_APSS_PROC_POWER_VCS_VIO_WATTS</id>
+		<default>19</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -9474,6 +9855,10 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>DISABLE_I2C_ENGINE2_PORT0_DIAG_MODE</id>
 		<default>1</default>
 	</attribute>
 	<attribute>
@@ -19215,6 +19600,10 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default>0xFFFF</default>
 	</attribute>
@@ -19873,6 +20262,10 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default>0xFF00</default>
 	</attribute>
@@ -20172,6 +20565,10 @@
 	<attribute>
 		<id>ORDINAL_ID</id>
 		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
@@ -20833,6 +21230,10 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default>0xFFFF</default>
 	</attribute>
@@ -21247,6 +21648,10 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default>0xFF00</default>
 	</attribute>
@@ -21546,6 +21951,10 @@
 	<attribute>
 		<id>ORDINAL_ID</id>
 		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
@@ -21963,6 +22372,10 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default>0x00F0</default>
 	</attribute>
@@ -22262,6 +22675,10 @@
 	<attribute>
 		<id>ORDINAL_ID</id>
 		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
@@ -45561,6 +45978,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>FABRIC_GROUP_ID</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
 		<id>FABRIC_NODE_ID</id>
 		<default>0</default>
 	</attribute>
@@ -45722,6 +46143,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>NO_APSS_PROC_POWER_VCS_VIO_WATTS</id>
+		<default>19</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
