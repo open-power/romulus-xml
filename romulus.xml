@@ -6700,6 +6700,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>OPEN_POWER_MIN_MEM_UTILIZATION_POWER_CAP</id>
+		<default>25</default>
+	</attribute>
+	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
 		<default>25</default>
 	</attribute>
@@ -6724,6 +6728,18 @@
 		<default>500</default>
 	</attribute>
 	<attribute>
+		<id>PROC_MHZ_PER_WATT</id>
+		<default>28</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_PM_MODE</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_PM_MODE_FREQ_PERCENT</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
 		<default>85</default>
 	</attribute>
@@ -6736,8 +6752,20 @@
 		<default>5</default>
 	</attribute>
 	<attribute>
+		<id>OPEN_POWER_PROC_WEIGHT</id>
+		<default>9</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_QUAD_WEIGHT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
 		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>
 		<default>85</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_SOFT_MIN_PCAP_WATTS</id>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
@@ -9353,6 +9381,22 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>PBAX_BRDCST_ID_VECTOR</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_CHIPID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_GROUPID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PM_PBAX_NODEID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -11196,11 +11240,11 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default>10</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default>23</default>
+		<default>50</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VCS_UOHM</id>
@@ -11208,7 +11252,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default>250</default>
+		<default>254</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDN_UOHM</id>
@@ -43577,7 +43621,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -43700,7 +43744,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -43823,7 +43867,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -43946,7 +43990,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -44069,7 +44113,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -44192,7 +44236,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -46019,6 +46063,22 @@
 	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_BRDCST_ID_VECTOR</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_CHIPID</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_GROUPID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PM_PBAX_NODEID</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
