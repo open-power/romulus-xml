@@ -1286,6 +1286,40 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MSS_MRW_FINE_REFRESH_MODE</id>
+		<enumerator>
+		<name>FIXED_2X</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>FLY_4X</name>
+		<value>6</value>
+		</enumerator>
+		<enumerator>
+		<name>NORMAL</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>FLY_2X</name>
+		<value>5</value>
+		</enumerator>
+		<enumerator>
+		<name>FIXED_4X</name>
+		<value>2</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>MSS_MRW_TEMP_REFRESH_MODE</id>
+		<enumerator>
+		<name>DISABLE</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLE</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MULTI_SCOM_BUFFER_MAX_SIZE_BIT</id>
 		<enumerator>
 		<name>MULTI_SCOM_BUFFER_SIZE_32KB</name>
@@ -6434,7 +6468,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_FINE_REFRESH_MODE</id>
-		<default></default>
+		<default>NORMAL</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_IDLE_POWER_CONTROL_REQUESTED</id>
@@ -6506,7 +6540,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SAFEMODE_MEM_THROTTLED_N_COMMANDS_PER_PORT</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SAFEMODE_MEM_THROTTLED_N_COMMANDS_PER_SLOT</id>
@@ -6515,6 +6549,10 @@
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
 		<default>0x74A,0x855,0x960,0</default>
+	</attribute>
+	<attribute>
+		<id>MSS_MRW_TEMP_REFRESH_MODE</id>
+		<default>DISABLE</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_RANGE</id>
