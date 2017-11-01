@@ -6468,7 +6468,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_FINE_REFRESH_MODE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_IDLE_POWER_CONTROL_REQUESTED</id>
