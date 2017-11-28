@@ -6480,7 +6480,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
-		<default>4</default>
+		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MCS_PREFETCH_RETRY_THRESHOLD</id>
