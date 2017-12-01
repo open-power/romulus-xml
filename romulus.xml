@@ -9901,7 +9901,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
-		<default>0x8c010000</default>
+		<default>0x80030000</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX0</id>
