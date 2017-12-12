@@ -4681,10 +4681,6 @@
 	<value></value>
 	</property>
 	<property>
-	<id>FSI_LINK</id>
-	<value></value>
-	</property>
-	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
@@ -4693,10 +4689,6 @@
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/fsim-1</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>FSI_LINK</id>
 	<value></value>
 	</property>
 	<property>
