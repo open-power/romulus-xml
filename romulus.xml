@@ -2433,6 +2433,50 @@
 		<value>6</value>
 		</enumerator>
 </enumerationType>
+<enumerationType>
+	<id>WOF_ENABLE_FRATIO</id>
+		<enumerator>
+		<name>FIXED</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>STEPPED</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>WOF_ENABLE_VRATIO</id>
+		<enumerator>
+		<name>FIXED</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>STEPPED</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>WOF_POWER_LIMIT</id>
+		<enumerator>
+		<name>NOMINAL</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>TURBO</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>WOF_VRATIO_SELECT</id>
+		<enumerator>
+		<name>ACTIVE_CORES</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>FULL</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
 </enumerationTypes>
 <globalSettings>
 <globalSetting>
@@ -7393,6 +7437,26 @@
 	<attribute>
 		<id>VDM_VID_COMPARE_OVERRIDE_MV</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>WOF_ENABLE_FRATIO</id>
+		<default>FIXED</default>
+	</attribute>
+	<attribute>
+		<id>WOF_ENABLE_VRATIO</id>
+		<default>FIXED</default>
+	</attribute>
+	<attribute>
+		<id>WOF_POWER_LIMIT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>WOF_TABLE_LID_NUMBER</id>
+		<default>0x81E00440</default>
+	</attribute>
+	<attribute>
+		<id>WOF_VRATIO_SELECT</id>
+		<default>ACTIVE_CORES</default>
 	</attribute>
 	<attribute>
 		<id>VLAN_SWITCHES</id>
