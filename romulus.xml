@@ -6015,6 +6015,10 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
+		<default>1866</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_PB_MHZ_POUNDV_FALLBACK</id>
 		<default>1600</default>
 	</attribute>
 	<attribute>
@@ -7312,7 +7316,7 @@
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
-		<default>0x80000000</default>
+		<default>0xE0000000</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTS_DYNAMIC_MEM_VOLT</id>
