@@ -7476,11 +7476,11 @@
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_FIELD</id>
-		<default></default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_MNFG</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>power-def-filenames</id>
