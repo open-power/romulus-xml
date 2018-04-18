@@ -6244,7 +6244,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
-		<default>2400,2400,2400,2133,2133</default>
+		<default>2666,2666,2666,2133,2133</default>
 	</attribute>
 	<attribute>
 		<id>MAX_CHIPLETS_PER_PROC</id>
@@ -6588,7 +6588,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>0x74A,0x855,0x960,0</default>
+		<default>0x74A,0x855,0x960,0xA6A</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_MODE</id>
