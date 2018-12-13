@@ -31427,7 +31427,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x07</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -34003,7 +34003,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x07</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -36780,7 +36780,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x08</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -39356,7 +39356,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+                <default>0x08</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
